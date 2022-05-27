@@ -1,0 +1,143 @@
+body
+{
+    background-color: #ddf385;
+}
+header
+{
+    background-color: rgb(179, 255, 0);
+    width: 1600px;
+    height: 500px;
+   
+}
+
+.Container p
+{
+    color: rgb(127, 230, 0);
+    text-shadow: 2px 1px gray;
+    font-style: oblique;
+    font-weight: bold;
+   font-size: 3rem;
+   position:absolute;
+   top: 50px;
+   right: -230px;
+   transform:translate(-50%,-50%);
+}
+main
+{
+    
+    width: 1600px;
+    height: 100px;
+    float: left;
+}
+.tituloo
+{
+    color: rgb(127, 230, 0);
+    text-shadow: 2px 1px rgb(255, 251, 251);
+    font-style: italic;
+    font-size: 3rem;
+    text-align: left;
+    line-height: 0px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.info
+{
+    margin-left: 20px;
+    float: left;
+
+}
+.ubi
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.cuerpoo{
+	background-color: rgb(200, 243, 243);
+    margin-right: 200px;
+	margin-top: 140px;
+	float: right;
+	width: 350px;
+	height: 65vh;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+    	bottom: 200px;
+}
+.contee{
+	max-width: 300px;
+	width: 100%;
+	padding: 25px 30px;
+	border-radius: 20px;
+}
+.contee .titulo{
+    color: darkblue;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+    font-style: oblique;
+    font-weight:bold;
+    position:relative;
+    left: -25px;
+
+}
+.contee form .detalle{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+}
+
+form .detalle .boton{
+	margin: 20px 0 12px 0;
+	width: calc(100% / 2 - 20);
+}
+.detalle .boton .info{
+	font-weight: 500;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.detalle .boton input{
+	height: 45px;
+	width: 100%;
+	margin-left: 10px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+
+
+form .enviar input{
+	width: 100%;
+	height: 45px;
+	color: #E4E3F2;
+	outline: none;
+    float: right;
+	border:none;
+	background: #174ca8;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+	form .enviar input:hover{
+		background: #be1111;
+	}
+   
+    form .enviar{
+        height: 45px;
+        width: 120px;
+        margin: 15px 0;
+        padding-right: 50px;
+        float:left;
+        position:relative;
+        left: 25px;
+    }
+    footer
+    {
+        background-color: #ddf385;
+        height: 150px;
+        width: 100%;
+    }

@@ -1,0 +1,21 @@
+body
+{
+    background-color: aqua;
+}
+.datos
+{
+    background-color: rgb(158, 234, 234);
+    text-align: center;
+    width: 45% ;
+    margin-left: 400px;
+    padding: 40px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.acts
+{
+    background-color: rgb(173, 217, 255);
+    width: 200px;
+    border-radius: 10px;
+}
