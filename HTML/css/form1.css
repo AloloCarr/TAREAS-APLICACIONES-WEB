@@ -1,0 +1,40 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.label
+{
+
+    float: left;
+    padding-left: 450px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.input
+{
+    float: right;
+   padding-right: 560px;
+   font-size: 17px;
+   padding-bottom: 25px;
+   
+}
+body
+{
+    background-color: rgb(225, 222, 222);
+}
+.boton
+{
+    margin-top: 25px;
+    padding-left: 750px;
+}
